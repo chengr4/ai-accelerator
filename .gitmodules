@@ -1,0 +1,7 @@
+[submodule "buildroot"]
+	path = buildroot
+	url = git@github.com:buildroot/buildroot.git
+    ignore = dirty
+[submodule "qemu"]
+	path = qemu
+	url = git@github.com:chengr4/qemu.git

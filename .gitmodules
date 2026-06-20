@@ -1,7 +1,17 @@
-[submodule "buildroot"]
-	path = buildroot
-	url = git@github.com:buildroot/buildroot.git
-    ignore = dirty
 [submodule "qemu"]
 	path = qemu
 	url = git@github.com:chengr4/qemu.git
+	shallow = true
+[submodule "rust-for-linux.com"]
+	path = rust-for-linux.com
+	url = git@github.com:Rust-for-Linux/rust-for-linux.com.git
+	shallow = true
+[submodule "rust-out-of-tree-module"]
+	path = rust-out-of-tree-module
+	url = git@github.com:Rust-for-Linux/rust-out-of-tree-module.git
+	shallow = true
+
+[submodule "linux"]
+	path = linux
+	url = git@github.com:torvalds/linux.git
+	branch = master

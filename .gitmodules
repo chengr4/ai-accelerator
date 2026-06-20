@@ -10,7 +10,6 @@
 	path = rust-out-of-tree-module
 	url = git@github.com:Rust-for-Linux/rust-out-of-tree-module.git
 	shallow = true
-
 [submodule "linux"]
 	path = linux
 	url = git@github.com:torvalds/linux.git

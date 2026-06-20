@@ -4,6 +4,8 @@ A platform for emulating a PCI device in QEMU (with factorial support) and drivi
 
 > Warning: According to [Rust for Linux](https://rust-for-linux.com/out-of-tree-modules#out-of-tree-modules), Rust internal APIs can be changed at any time. This means the current version of the driver may not work with the latest Linux kernel. Please check the compatibility when encountering build errors.
 
+https://github.com/user-attachments/assets/a44ffe98-2d99-4de2-ba52-9628817a54cb
+
 ## Project Overview
 
 - Docker Container - Ubuntu 24.04

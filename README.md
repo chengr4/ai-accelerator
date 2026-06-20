@@ -28,7 +28,7 @@ https://github.com/user-attachments/assets/a44ffe98-2d99-4de2-ba52-9628817a54cb
 2. Start the Container
 
 ```bash
-docker run -it -d --name emu -v $(pwd):/workspace -v linux-src-vol:/linux-env qemu-builder
+docker run -it -d --name emu -v $(pwd):/workspace qemu-builder
 
 # Go into the container
 docker exec -it emu /bin/bash
